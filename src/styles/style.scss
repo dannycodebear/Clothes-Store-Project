@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9d1d1;
+
+  img {
+    width: 10vh;
+    height: 10vh;
+  }
+
+  input {
+    padding: 0.25rem 1rem;
+  }
+
+  ul {
+    display: flex;
+
+    list-style-type: none;
+    li {
+      padding: 1.5rem;
+      font-size: 20px;
+    }
+  }
+}
+
+@import "./nav";
