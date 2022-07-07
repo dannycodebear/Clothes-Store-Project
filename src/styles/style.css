@@ -9,6 +9,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   width: 100vw;
   height: 10vh;
@@ -29,7 +33,7 @@ header div.headerBar {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid black;
 }
 
 header div.headerBar img {
@@ -53,7 +57,7 @@ header div.headerBar ul {
 }
 
 header div.headerBar ul li {
-  padding: 1.5rem;
+  padding: 1rem;
   font-size: 20px;
 }
 
@@ -100,6 +104,29 @@ header div.section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+header div.section span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header div.section span img.New {
+  position: relative;
+}
+
+header div.section span button.left-button {
+  z-index: 1;
+  position: absolute;
+  bottom: 50vh;
+}
+
+header div.section span button.right-button {
+  z-index: 1;
+  position: absolute;
+  right: 2.5vw;
+  bottom: 50vh;
 }
 
 header div.section img {

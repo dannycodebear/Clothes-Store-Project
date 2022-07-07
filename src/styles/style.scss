@@ -8,6 +8,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   width: 100vw;
   height: 10vh;
@@ -20,7 +24,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
 
     img {
       width: 10vh;
@@ -37,7 +41,7 @@ header {
       justify-content: flex-end;
       list-style-type: none;
       li {
-        padding: 1.5rem;
+        padding: 1rem;
         font-size: 20px;
       }
     }
@@ -71,6 +75,24 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    span {
+      display: flex;
+      img.New {
+        position: relative;
+      }
+      button.left-button {
+        z-index: 1;
+        position: absolute;
+        bottom: 50vh;
+      }
+      button.right-button {
+        z-index: 1;
+        position: absolute;
+        right: 2.5vw;
+        bottom: 50vh;
+      }
+    }
     img {
       margin: 0.5rem 0rem;
       width: 95vw;

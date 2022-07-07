@@ -1,6 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HomepageComponent = () => {
+  const changePictureRight = () => {
+    if (true) {
+      let i = 1;
+      document.querySelector("img.New").src = require(`../photo-resource/pic${i}.jpg`);
+
+      i += 1;
+      console.log(i);
+    }
+  };
+
   return (
     <header>
       {/* Header */}
@@ -8,24 +19,46 @@ const HomepageComponent = () => {
         <img src={require("../photo-resource/Logo.svg.png")} alt="Logo" />
         <input type="text" />
         <ul>
-          <li>幫助</li>
-          <li>會員</li>
-          <li>最愛</li>
-          <li>購物車</li>
+          <li>
+            <Link to="/">幫助</Link>
+          </li>
+          <li>
+            <Link to="/">會員</Link>
+          </li>
+          <li>
+            <Link to="/">最愛</Link>
+          </li>
+          <li>
+            <Link to="/">購物車</Link>
+          </li>
         </ul>
       </div>
       {/* Nav Bar */}
       <div className="nav">
         <ul>
-          <li>暢銷</li>
-          <li>男裝</li>
-          <li>女裝</li>
-          <li>童裝</li>
+          <li>
+            <Link to="/">暢銷</Link>
+          </li>
+          <li>
+            <Link to="/">男裝</Link>
+          </li>
+          <li>
+            <Link to="/">女裝</Link>
+          </li>
+          <li>
+            <Link to="/">童裝</Link>
+          </li>
         </ul>
       </div>
       {/* Section */}
       <div className="section">
-        <img src={require("../photo-resource/pic.jpeg")} alt="New" />
+        <span>
+          <button className="left-button">left</button>
+          <img className="New" src={require("../photo-resource/pic.jpeg")} alt="New" />
+          <button onClick={changePictureRight} className="right-button">
+            right
+          </button>
+        </span>
         <img src={require("../photo-resource/hot.jpg")} alt="Hot" />
         <img src={require("../photo-resource/lm.jpg")} alt="LM" />
         <img src={require("../photo-resource/baby.jpg")} alt="Baby" />
