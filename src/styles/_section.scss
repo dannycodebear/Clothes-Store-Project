@@ -1,0 +1,122 @@
+section {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  div.pic1 {
+    position: relative;
+    span.button1 {
+      display: block;
+      position: absolute;
+      left: 10px;
+      bottom: 16px;
+      z-index: 1;
+    }
+
+    span.newCard {
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      z-index: 1;
+      img {
+        width: 15vw;
+        height: 5vw;
+        opacity: 0.6;
+      }
+    }
+  }
+
+  div.hot1 {
+    position: relative;
+    span.button2 {
+      display: block;
+      position: absolute;
+      left: 10px;
+      bottom: 16px;
+      z-index: 1;
+    }
+
+    span.hotCard {
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      z-index: 1;
+      img {
+        width: 15vw;
+        height: 5vw;
+        opacity: 0.6;
+      }
+    }
+  }
+
+  div.baby1 {
+    position: relative;
+    span.button3 {
+      display: block;
+      position: absolute;
+      left: 10px;
+      bottom: 16px;
+      z-index: 1;
+    }
+
+    span.babyCard {
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      z-index: 1;
+      img {
+        width: 15vw;
+        height: 5vw;
+        opacity: 0.6;
+      }
+    }
+  }
+
+  div.coBrand1 {
+    position: relative;
+    span.button4 {
+      display: block;
+      position: absolute;
+      left: 10px;
+      bottom: 16px;
+      z-index: 1;
+    }
+
+    span.coBrandCard {
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      z-index: 1;
+      img {
+        width: 15vw;
+        height: 5vw;
+        opacity: 0.6;
+      }
+    }
+  }
+
+  button {
+    padding: 0.5rem;
+    font-size: 15px;
+    border: thick double lemonchiffon;
+    border-collapse: separate;
+    background-color: paleturquoise;
+    opacity: 0.8;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  img {
+    z-index: -1;
+    margin: 0.1rem 0rem;
+    width: 98vw;
+    height: 40vw;
+  }
+}

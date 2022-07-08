@@ -61,7 +61,7 @@ header div.headerBar ul li {
   font-size: 20px;
 }
 
-header div.nav {
+nav {
   width: 100vw;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
@@ -69,7 +69,7 @@ header div.nav {
   padding: 0.5rem 1rem;
 }
 
-header div.nav ul {
+nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -86,11 +86,12 @@ header div.nav ul {
   padding: 0rem 2rem;
 }
 
-header div.nav ul li {
+nav ul li {
   font-size: 30px;
 }
 
-header div.section {
+section {
+  margin-top: 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,31 +107,125 @@ header div.section {
           justify-content: center;
 }
 
-header div.section span {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-header div.section span img.New {
+section div.pic1 {
   position: relative;
 }
 
-header div.section span button.left-button {
-  z-index: 1;
+section div.pic1 span.button1 {
+  display: block;
   position: absolute;
-  bottom: 50vh;
+  left: 10px;
+  bottom: 16px;
+  z-index: 1;
 }
 
-header div.section span button.right-button {
-  z-index: 1;
+section div.pic1 span.newCard {
+  display: block;
   position: absolute;
-  right: 2.5vw;
-  bottom: 50vh;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
 }
 
-header div.section img {
-  margin: 0.5rem 0rem;
-  width: 95vw;
+section div.pic1 span.newCard img {
+  width: 15vw;
+  height: 5vw;
+  opacity: 0.6;
+}
+
+section div.hot1 {
+  position: relative;
+}
+
+section div.hot1 span.button2 {
+  display: block;
+  position: absolute;
+  left: 10px;
+  bottom: 16px;
+  z-index: 1;
+}
+
+section div.hot1 span.hotCard {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+section div.hot1 span.hotCard img {
+  width: 15vw;
+  height: 5vw;
+  opacity: 0.6;
+}
+
+section div.baby1 {
+  position: relative;
+}
+
+section div.baby1 span.button3 {
+  display: block;
+  position: absolute;
+  left: 10px;
+  bottom: 16px;
+  z-index: 1;
+}
+
+section div.baby1 span.babyCard {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+section div.baby1 span.babyCard img {
+  width: 15vw;
+  height: 5vw;
+  opacity: 0.6;
+}
+
+section div.coBrand1 {
+  position: relative;
+}
+
+section div.coBrand1 span.button4 {
+  display: block;
+  position: absolute;
+  left: 10px;
+  bottom: 16px;
+  z-index: 1;
+}
+
+section div.coBrand1 span.coBrandCard {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+section div.coBrand1 span.coBrandCard img {
+  width: 15vw;
+  height: 5vw;
+  opacity: 0.6;
+}
+
+section button {
+  padding: 0.5rem;
+  font-size: 15px;
+  border: thick double lemonchiffon;
+  border-collapse: separate;
+  background-color: paleturquoise;
+  opacity: 0.8;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+section img {
+  z-index: -1;
+  margin: 0.1rem 0rem;
+  width: 98vw;
   height: 40vw;
 }

@@ -1,0 +1,35 @@
+header {
+  width: 100vw;
+  height: 10vh;
+  flex-basis: 100%;
+  background-color: #f9d1d1;
+
+  // Header Styling
+  div.headerBar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+
+    img {
+      width: 10vh;
+      height: 10vh;
+    }
+
+    input {
+      font-size: 20px;
+      padding: 0.25rem 3rem 0.25rem 0.5rem;
+    }
+
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      list-style-type: none;
+      li {
+        padding: 1rem;
+        font-size: 20px;
+      }
+    }
+  }
+}
