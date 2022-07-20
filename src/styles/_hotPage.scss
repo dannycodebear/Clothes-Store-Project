@@ -1,0 +1,25 @@
+div.COL00-clothe {
+  background-color: black;
+  img.li {
+    padding: 0.5rem;
+    width: 20vw;
+    height: 20vw;
+  }
+
+  div.container {
+    div {
+      ul {
+        list-style-type: none;
+        display: flex;
+        li {
+          padding: 0.3rem 0.5rem;
+          img {
+            cursor: pointer;
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+}
