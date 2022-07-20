@@ -5,8 +5,9 @@ const HeaderComponent = () => {
   return (
     <header>
       <div className="headerBar">
-        <img src={require("../photo-resource/Logo.svg.png")} alt="Logo" />
-        <input type="text" />
+        <a href="/">
+          <img src={require("../photo-resource/Logo.svg.png")} alt="Logo" title="Clothe Homepage" />
+        </a>
         <ul>
           <li>
             <Link to="/">幫助</Link>

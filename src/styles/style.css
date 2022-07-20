@@ -14,8 +14,7 @@ a {
 }
 
 header {
-  width: 100vw;
-  height: 10vh;
+  max-width: 100vw;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   background-color: #f9d1d1;
@@ -37,13 +36,8 @@ header div.headerBar {
 }
 
 header div.headerBar img {
-  width: 10vh;
-  height: 10vh;
-}
-
-header div.headerBar input {
-  font-size: 20px;
-  padding: 0.25rem 3rem 0.25rem 0.5rem;
+  width: 12vh;
+  height: 12vh;
 }
 
 header div.headerBar ul {
@@ -58,11 +52,11 @@ header div.headerBar ul {
 
 header div.headerBar ul li {
   padding: 1rem;
-  font-size: 20px;
+  font-size: 26px;
 }
 
 nav {
-  width: 100vw;
+  max-width: 100vw;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   background-color: #f9d1f4;
@@ -82,12 +76,11 @@ nav ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0.5rem 5rem;
-  padding: 0rem 2rem;
 }
 
 nav ul li {
   font-size: 30px;
+  padding: 0.5rem 2rem;
 }
 
 section {
@@ -112,7 +105,9 @@ section div.pic1 {
 }
 
 section div.pic1 span.button1 {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
   left: 10px;
   bottom: 16px;
@@ -228,4 +223,31 @@ section img {
   margin: 0.1rem 0rem;
   width: 98vw;
   height: 40vw;
+}
+
+div.COL00-clothe {
+  background-color: black;
+}
+
+div.COL00-clothe img.li {
+  padding: 0.5rem;
+  width: 20vw;
+  height: 20vw;
+}
+
+div.COL00-clothe div.container div ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.COL00-clothe div.container div ul li {
+  padding: 0.3rem 0.5rem;
+}
+
+div.COL00-clothe div.container div ul li img {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
 }

@@ -6,7 +6,7 @@ const NavComponent = () => {
     <nav>
       <ul>
         <li>
-          <Link to="/">暢銷</Link>
+          <Link to="/HotPage">暢銷</Link>
         </li>
         <li>
           <Link to="/">男裝</Link>
