@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const HeaderComponent = () => {
+  let i = 0;
   return (
     <header>
       <div className="headerBar">

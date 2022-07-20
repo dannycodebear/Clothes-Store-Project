@@ -14,6 +14,8 @@ const HotPage = () => {
     ).src = require(`../photo-resource/man-clothe/clothe 0/COL00-clothe.jpg`);
   };
 
+  let i = 0;
+
   return (
     <div className="COL00-clothe">
       <HeaderComponent />
